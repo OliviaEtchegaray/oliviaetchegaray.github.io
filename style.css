@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .textura {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 0.5s ease;
+  }
